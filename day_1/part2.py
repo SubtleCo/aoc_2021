@@ -1,7 +1,7 @@
 from data import input_string
-import helpers
+from helpers import split_new_line_seperated_string
 
-input_list = helpers.split_new_line_seperated_string(int, input_string)
+input_list = split_new_line_seperated_string(int, input_string)
 
 
 def count_depth_increases_group(input):
